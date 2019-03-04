@@ -1,0 +1,28 @@
+{
+  "name": "meow-commando",
+  "version": "1.0.0",
+  "description": "Open source bot to learn!",
+  "main": "meow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cendy-Project/meow-commando.git"
+  },
+  "keywords": [
+    "meow",
+    "commando",
+    "LelioMods",
+    "cendy"
+  ],
+  "author": "Cendy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cendy-Project/meow-commando/issues"
+  },
+  "homepage": "https://github.com/Cendy-Project/meow-commando#readme",
+  "dependencies": {
+    "discord.js-commando": "^0.10.0"
+  }
+}
