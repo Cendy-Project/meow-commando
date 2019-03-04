@@ -10,16 +10,16 @@ const client = new Commando.Client({
 })
 //register commands
 client.registry
-.registerDefaultTypes()
-.registerGroups([
-    ['random', 'random:']
-])
-.registerDefaultGroups()
-.registerDefaultCommands()
-.registerCommandsIn(path.join(__dirname, 'commands'))
+    .registerDefaultTypes()
+    .registerGroups([
+        ['random', 'random:']
+    ])
+    .registerDefaultGroups()
+    .registerDefaultCommands()
+    .registerCommandsIn(path.join(__dirname, 'commands'))
 //events
 client.on('ready', () => {
-console.log('Logged in')
+    console.log(`Logged in and ready to be used.. use "${client.commandPrefix}hello".`)
 })
 //login to client
 client.login(config.token)
