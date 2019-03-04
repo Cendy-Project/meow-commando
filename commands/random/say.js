@@ -7,11 +7,11 @@ module.exports = class sayCommand extends Command{
         super(client, {
             name: 'say',
             memberName: 'say',
-            group: 'test',
+            group: 'random',
             aliases: ['echo', 'repeat'],
             description: 'A command that repeats whatever you say.',
             details: "Make me repeat your wordsmaking it look like I'm a parrot",
-            examples: ['==say Hello World', '==repeat Who Am I?'],
+            examples: ['+say Hello World', '+repeat Who Am I?'],
             clientPermissions: ["MANAGE_MESSAGES"],
             args: [{
                 key: 'text',
